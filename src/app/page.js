@@ -12,7 +12,7 @@ export default function Home() {
       setIsLoading(false);
       document.body.style.cursor = 'default'
     },2000)
-  })
+  },[])
 
   return (
     <main className={styles.main}>
