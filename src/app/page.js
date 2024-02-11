@@ -19,6 +19,8 @@ export default function Home() {
       <AnimatePresence mode="wait">
       { isLoading && <LoadingScreen/> }
       </AnimatePresence>
+      <div className={styles.testDiv}>
+      </div>
     </main>
   );
 }
